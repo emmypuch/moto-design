@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+::selection {
+  background: #4fc1f0;
+  color: #fff;
+  text-shadow: none;
+}
+
+header {
+  /* background-image: url("images/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain; */
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+  box-shadow: 0 0 20px -10px #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+div.logo-image {
+  padding-top: 10px;
+}
+
+div.logo-image img {
+  width: 85%;
+}
+
+nav {
+  transition: all 0.5s ease 0s;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul li {
+  margin: 15px;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+  color: #f7d4c4;
+}
+
+li#link-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 8px 30px;
+  transition: 0.3s;
+}
+
+li#link-btn:hover {
+  background: #f75160;
+  border: none;
+  color: #fff;
+}
+
+li#link-btn a:hover {
+  color: #fff;
+}
