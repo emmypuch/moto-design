@@ -377,7 +377,7 @@ div.about-content h2 {
   font-size: 3rem;
   color: #3e3e3e;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 div.about-content p {
@@ -428,4 +428,89 @@ div.about-img img {
     font-size: 0.9rem;
     padding-top: 35px;
   }
+}
+
+/* Feature Styling Area */
+section.feature {
+  background: #faf9ff;
+  padding: 20px 20px;
+}
+
+div.feature-heading {
+  padding-top: 7rem;
+}
+
+div.feature-heading h2,
+div.feature-heading p {
+  text-align: center;
+}
+
+div.feature-heading h2 {
+  color: #3e3e3e;
+  margin-bottom: 24px;
+  position: relative;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+div.feature-heading p {
+  color: #999999;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px;
+}
+
+div.grid-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+div.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 50px;
+}
+
+div.feature-content {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+div.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f75160;
+  background: transparent;
+}
+
+div.feature-content h3 {
+  color: #3e3e3e;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  padding-top: 15px;
+}
+
+div.feature-content p {
+  font-size: 1rem;
+  color: #999999;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 5px;
 }
