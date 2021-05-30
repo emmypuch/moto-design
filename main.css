@@ -474,7 +474,7 @@ div.grid-center {
 div.features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 50px;
 }
 
@@ -492,6 +492,9 @@ div.img {
   height: 50px;
   border: 1px solid #f75160;
   background: transparent;
+  position: relative;
+  top: 0;
+  left: 120px;
 }
 
 div.feature-content h3 {
@@ -513,4 +516,26 @@ div.feature-content p {
   line-height: 25px;
   text-align: center;
   padding-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  section.feature {
+    padding: 10px 10px;
+  }
+
+  div.feature-heading h2 {
+    margin-bottom: 24px;
+    font-size: 2.5rem;
+  }
+
+  div.feature-heading p {
+    font-size: 1rem;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+
+  div.features-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
