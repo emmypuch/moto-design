@@ -14,6 +14,11 @@
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
   background-image: rgba(0, 0, 0, 0)
     linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
   box-shadow: 0 0 20px -10px #000;
@@ -116,6 +121,7 @@ li#link-btn a:hover {
     display: none;
   }
 }
+
 .navbar {
   background: rgba(0, 0, 0, 0)
     linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
@@ -190,5 +196,99 @@ li#link-btn a:hover {
 
   .navbar-toggle {
     display: none;
+  }
+}
+
+/* Hero Section Styling */
+section#hero-area {
+  background-image: url("images/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  margin-top: 50px;
+  padding: 20px 20px;
+}
+
+div.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div.hero-img {
+  max-width: 100%;
+}
+
+div.hero-img img {
+  max-width: 100%;
+}
+
+div.hero-content {
+  margin-top: 10rem;
+}
+
+div.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+div.hero-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+div.hero-content a {
+  font-size: 1rem;
+  margin-top: 40px;
+  background: #ff5f6d none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+div.hero-content a:hover {
+  background: #f75160;
+}
+
+@media screen and (max-width: 768px) {
+  section#hero-area {
+    height: 110vh;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+  }
+
+  div.hero-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  div.hero-img img {
+    width: 90%;
+  }
+
+  div.hero-content h1 {
+    font-size: 3rem;
+  }
+
+  div.hero-content p {
+    font-size: 1rem;
   }
 }
