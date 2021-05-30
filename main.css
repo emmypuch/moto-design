@@ -200,7 +200,7 @@ li#link-btn a:hover {
 }
 
 /* Hero Section Styling */
-section#hero-area {
+section.hero-area {
   background-image: url("images/bg1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,7 +261,7 @@ div.hero-content a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  section#hero-area {
+  section.hero-area {
     height: 110vh;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -290,5 +290,70 @@ div.hero-content a:hover {
 
   div.hero-content p {
     font-size: 1rem;
+  }
+}
+
+/* Service Area Styling */
+section.service-area {
+  background: #faf9ff;
+  padding: 20px 20px;
+}
+
+div.service-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 6rem; */
+}
+
+div.service-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div.service-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 110px 25px 105px;
+}
+
+div.service-icons:hover {
+  background: transparent;
+  box-shadow: 0 0px 20px 0 rgb(0 0 0 / 10%);
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+div.icon {
+  padding: 30px;
+}
+
+div.icon-h3 h3 {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-size: normal;
+}
+
+div.icon-h3 p {
+  color: #999999;
+  font-weight: 400;
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  section.service-area {
+    padding: 10px 10px;
+  }
+
+  div.service-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.icon-h3 p {
+    font-size: 0.9rem;
   }
 }
