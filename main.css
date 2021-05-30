@@ -541,3 +541,11 @@ div.feature-content p {
 }
 
 /* Section Work Area Styling */
+section.work-area {
+  background-image: url("images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding: 20px 20px;
+}
