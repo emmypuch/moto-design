@@ -420,6 +420,10 @@ div.about-img img {
     flex-direction: column;
   }
 
+  div.about-content {
+    padding-right: 10px;
+  }
+
   div.about-content h2 {
     font-size: 2.5rem;
   }
@@ -543,6 +547,11 @@ div.feature-content p {
     display: flex;
     flex-direction: column;
   }
+
+  div.feature-content {
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
 }
 
 /* Section Work Area Styling */
@@ -552,18 +561,17 @@ section.work-area {
   background-size: cover;
   background-position: center;
   height: 105vh;
-  padding: 20px 20px;
+  padding: 40px 20px;
 }
 
 div.work-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0px;
   padding-top: 6rem;
 }
 
 div.work-image {
-  padding-left: 20px;
+  padding-left: 12rem;
 }
 
 div.work-image img {
@@ -587,7 +595,7 @@ div.work-content h2 {
   position: relative;
   overflow: hidden;
   background: #fff;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   line-height: 1.5;
   font-weight: 400;
@@ -690,7 +698,7 @@ div.work-content h2 {
   }
 
   .tabs_item p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
