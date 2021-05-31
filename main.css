@@ -666,12 +666,12 @@ div.work-content h2 {
   div.work-grid {
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 
-  div.work-content {
-    padding-top: 2rem;
-  }
+  /* div.work-content {
+    padding-top: 3rem;
+  } */
 
   div.work-image {
     display: flex;
