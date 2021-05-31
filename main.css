@@ -529,9 +529,8 @@ div.feature-content p {
   }
 
   div.feature-heading p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0 0 15px;
-    text-align: center;
   }
 
   div.features-grid {
@@ -584,9 +583,8 @@ div.work-content h2 {
   background: #fff;
   width: 70%;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
   color: #3e3e3e;
   -webkit-font-smoothing: antialiased;
   margin-left: 0rem;
@@ -668,7 +666,20 @@ div.work-content h2 {
     max-width: 80%;
   }
 
+  div.work-content {
+    padding-left: 10px;
+  }
+
   div.work-content h2 {
     font-size: 2.5rem;
+  }
+
+  .tabs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabs_item p {
+    font-size: 0.9rem;
   }
 }
