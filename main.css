@@ -262,7 +262,7 @@ div.hero-content a:hover {
 
 @media screen and (max-width: 768px) {
   section.hero-area {
-    height: 115vh;
+    height: 110vh;
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 10px 10px;
@@ -427,6 +427,12 @@ div.about-img img {
   div.about-content p {
     font-size: 0.9rem;
     padding-top: 35px;
+  }
+
+  div.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -645,7 +651,7 @@ div.work-content h2 {
 
 @media screen and (max-width: 768px) {
   section.work-area {
-    height: 195vh;
+    height: 185vh;
     padding: 10px 10px;
   }
 
@@ -694,6 +700,57 @@ section.funfact-area {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 30vh;
+  height: 20vh;
   padding: 20px 20px;
+}
+
+div.singlefact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+}
+
+div.content h2 {
+  font-weight: 600;
+  line-height: 35px;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+div.content p {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  section.funfact-area {
+    height: 60vh;
+    padding: 10px 10px;
+  }
+
+  div.singlefact-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+  }
+
+  div.content {
+    margin: 10px;
+  }
+
+  div.content h2 {
+    font-size: 2rem;
+  }
+
+  div.content p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
