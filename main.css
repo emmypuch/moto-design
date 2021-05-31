@@ -549,3 +549,126 @@ section.work-area {
   height: 90vh;
   padding: 20px 20px;
 }
+
+div.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding-top: 6rem;
+}
+
+div.work-image {
+  padding-left: 20px;
+}
+
+div.work-image img {
+  max-width: 100%;
+}
+
+div.work-content {
+  padding-top: 7rem;
+}
+
+div.work-content h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #3e3e3e;
+  font-style: normal;
+}
+
+.tab {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #3e3e3e;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 0rem;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.tabs a {
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid #f75160;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+
+.tabs_item p {
+  font-weight: 400;
+  color: #999999;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.tabs_item:first-child {
+  display: block;
+}
+
+.current a {
+  color: #fff;
+  background: #f75160;
+}
+
+@media screen and (max-width: 768px) {
+  section.work-area {
+    height: 90vh;
+    padding: 10px 10px;
+  }
+
+  div.work-grid {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+
+  div.work-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  div.work-image img {
+    max-width: 80%;
+  }
+
+  div.work-content h2 {
+    font-size: 2.5rem;
+  }
+}
