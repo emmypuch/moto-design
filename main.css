@@ -659,14 +659,14 @@ div.work-content h2 {
 
 @media screen and (max-width: 768px) {
   section.work-area {
-    height: 185vh;
+    height: 175vh;
     padding: 10px 10px;
   }
 
   div.work-grid {
     display: flex;
     flex-direction: column;
-    padding-top: 6rem;
+    padding-top: 8rem;
   }
 
   div.work-content {
