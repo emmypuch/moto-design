@@ -729,7 +729,7 @@ div.content p {
 
 @media screen and (max-width: 768px) {
   section.funfact-area {
-    height: 60vh;
+    height: 55vh;
     padding: 10px 10px;
   }
 
@@ -746,7 +746,7 @@ div.content p {
   }
 
   div.content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   div.content p {
