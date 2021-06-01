@@ -924,3 +924,81 @@ input:nth-of-type(5):checked ~ main#carousel {
     max-width: 99%;
   }
 }
+
+/* Download Area Styling */
+section.download-area {
+  background-image: url("images/download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  padding: 20px 20px;
+}
+
+div.download-heading {
+  margin-top: 6rem;
+}
+
+div.download-heading h2 {
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+div.download-heading p {
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 15px;
+}
+
+div.download-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+div.download-icons li {
+  list-style: none;
+}
+
+div.download-icons li a {
+  text-decoration: none;
+  background: #fff none repeat scroll 0 0;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  color: #3e3e3e;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 14px;
+  padding: 18px 40px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+
+div.download-icons li a:hover {
+  background: #ff5f6d;
+  color: #fff;
+}
+
+div.download-icons li:nth-child(2) a {
+  background: #ff5f6d;
+  color: #fff;
+}
+
+div.download-icons li a i {
+  color: #ff5f6d;
+}
+
+div.download-icons li a:hover i {
+  color: #fff;
+}
