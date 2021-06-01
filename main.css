@@ -507,6 +507,20 @@ div.img {
   left: 120px;
 }
 
+div.img:hover {
+  border: 1px solid #f75160;
+  background: #ff5f6d;
+}
+
+div.img i {
+  color: #4c5462;
+  font-size: 1.1rem;
+}
+
+div.img:hover i {
+  color: #fff;
+}
+
 div.feature-content h3 {
   color: #3e3e3e;
   font-size: 1.5rem;
@@ -1001,4 +1015,25 @@ div.download-icons li a i {
 
 div.download-icons li a:hover i {
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  section.download-area {
+    height: 50vh;
+    padding: 10px 10px;
+  }
+
+  div.download-heading h2 {
+    font-size: 2.5rem;
+  }
+
+  div.download-heading p {
+    font-size: 0.9rem;
+  }
+
+  div.download-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
