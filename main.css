@@ -1065,9 +1065,12 @@ div.pricing-wrapper p {
 }
 
 div.pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  justify-content: space-between;
   gap: 20px;
+  /* max-width: 100%; */
 }
 
 div.pricing-list {
@@ -1079,8 +1082,33 @@ div.pricing-list {
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   padding-top: 65px;
   height: 65vh;
-  width: 73%;
+  width: 35%;
   transition: all 0.4s ease 0s;
+}
+
+div.pricing-list:hover {
+  background: #ff5f6d;
+}
+
+div.pricing-list:hover div.pricing-list-btn a {
+  background: #ff5f6d;
+  color: #fff;
+}
+
+div.pricing-list:nth-child(2) {
+  background: #ff5f6d;
+}
+
+div.pricing-list:nth-child(2) h4,
+div.pricing-list:nth-child(2) span,
+div.pricing-list:nth-child(2) li {
+  color: #fff;
+}
+
+div.pricing-list:hover h4,
+div.pricing-list:hover span,
+div.pricing-list:hover li {
+  color: #fff;
 }
 
 div.pricing-grid h4 {
@@ -1134,4 +1162,24 @@ div.pricing-list-btn a {
   color: #383838;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+div.pricing-list:nth-child(2) div.pricing-list-btn a {
+  background: #ff5f6d;
+  color: #fff;
+}
+
+div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  section.pricing-area {
+    padding: 20px 20px;
+  }
+
+  div.pricing-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
