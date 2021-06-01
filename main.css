@@ -1078,5 +1078,60 @@ div.pricing-list {
   -webkit-box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   padding-top: 65px;
+  height: 65vh;
+  width: 73%;
   transition: all 0.4s ease 0s;
+}
+
+div.pricing-grid h4 {
+  font-weight: normal;
+  color: #3e3e3e;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+div.pricing-grid span {
+  color: #3e3e3e;
+  display: block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 20px 0 22px;
+  text-align: center;
+}
+
+div.pricing-list-ul ul li {
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+  color: #999999;
+  display: block;
+  font-size: 1rem;
+  line-height: 38px;
+}
+
+div.pricing-list-btn {
+  margin-top: 2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.pricing-list-btn a {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 24px 45px;
+  transition: all 0.4s ease 0s;
+  outline: medium none;
+  color: #383838;
+  text-transform: uppercase;
+  text-decoration: none;
 }
