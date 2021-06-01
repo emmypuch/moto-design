@@ -767,3 +767,24 @@ div.content p {
 section.screenshot-area {
   padding: 20px 20px;
 }
+
+div.screenshot-heading {
+  margin-top: 6rem;
+}
+
+div.screenshot-heading h2 {
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+div.screenshot-heading p {
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 15px;
+}
