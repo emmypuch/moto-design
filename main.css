@@ -479,6 +479,7 @@ div.grid-center {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 div.features-grid {
@@ -1019,7 +1020,7 @@ div.download-icons li a:hover i {
 
 @media screen and (max-width: 768px) {
   section.download-area {
-    height: 65vh;
+    height: 70vh;
     padding: 10px 10px;
   }
 
@@ -1195,5 +1196,9 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   div.pricing-list {
     height: 60vh;
     width: 90%;
+  }
+
+  div.pricing-list-btn {
+    margin-top: 10px;
   }
 }
