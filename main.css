@@ -1188,13 +1188,13 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   div.pricing-grid {
     display: flex;
     flex-direction: column;
-    padding: 0rem;
+    padding-bottom: 2rem;
     justify-content: center;
     align-items: center;
   }
 
   div.pricing-list {
-    height: 60vh;
+    height: 58vh;
     width: 100%;
   }
 
@@ -1236,7 +1236,7 @@ div.client-content h4 {
 
 @media screen and (max-width: 768px) {
   section.client-area {
-    height: 40vh;
+    height: 38vh;
     padding: 10px 10px;
   }
 
