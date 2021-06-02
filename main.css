@@ -1019,7 +1019,7 @@ div.download-icons li a:hover i {
 
 @media screen and (max-width: 768px) {
   section.download-area {
-    height: 60vh;
+    height: 65vh;
     padding: 10px 10px;
   }
 
@@ -1028,7 +1028,7 @@ div.download-icons li a:hover i {
   }
 
   div.download-heading p {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
 
   div.download-icons {
@@ -1193,7 +1193,7 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   }
 
   div.pricing-list {
-    height: 70vh;
+    height: 60vh;
     width: 90%;
   }
 }
