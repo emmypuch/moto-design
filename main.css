@@ -1191,6 +1191,7 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
     padding: 0rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
   }
 
   div.pricing-list {
@@ -1213,7 +1214,7 @@ section.client-area {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 36vh;
   padding: 20px 20px;
 }
 
@@ -1251,4 +1252,30 @@ div.client-content h4 {
   div.client-content h4 {
     font-size: 1.2rem;
   }
+}
+
+/* Team Area Styling */
+section.team-area {
+  padding: 20px 20px;
+}
+
+div.team-heading {
+  margin-top: 6rem;
+}
+
+div.team-heading h2 {
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+div.team-heading p {
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 15px;
 }
