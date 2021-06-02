@@ -1069,8 +1069,8 @@ div.pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  /* gap: 20px; */
   max-width: 100%;
+  padding: 6rem;
 }
 
 div.pricing-list {
@@ -1143,9 +1143,6 @@ div.pricing-list-ul ul li {
 
 div.pricing-list-btn {
   margin-top: 2.7rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 div.pricing-list-btn a {
@@ -1156,6 +1153,8 @@ div.pricing-list-btn a {
   display: inline-block;
   font-size: 1.1rem;
   font-weight: 600;
+  width: 100%;
+  text-align: center;
   padding: 24px 45px;
   transition: all 0.4s ease 0s;
   outline: medium none;
@@ -1199,6 +1198,16 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   }
 
   div.pricing-list-btn {
-    margin-top: 30px;
+    /* margin-top: 3rem; */
   }
+}
+
+/* Client Area Styling */
+section.client-area {
+  background-image: url("images/bg4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  padding: 20px 20px;
 }
