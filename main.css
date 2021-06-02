@@ -1197,6 +1197,10 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
     height: 60vh;
     width: 100%;
   }
+
+  div.pricing-list-btn {
+    margin-top: 3rem;
+  }
 }
 
 /* Client Area Styling */
@@ -1205,6 +1209,42 @@ section.client-area {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 55vh;
+  height: 40vh;
   padding: 20px 20px;
+}
+
+div.client-content {
+  margin-top: 4rem;
+}
+
+div.client-content p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: center;
+}
+
+div.client-content h4 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  section.client-area {
+    height: 40vh;
+    padding: 10px 10px;
+  }
+
+  div.client-content p {
+    font-size: 1.1rem;
+  }
+
+  div.client-content h4 {
+    font-size: 1.2rem;
+  }
 }
