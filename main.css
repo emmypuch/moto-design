@@ -1188,17 +1188,14 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   div.pricing-grid {
     display: flex;
     flex-direction: column;
+    padding: 0rem;
     justify-content: center;
     align-items: center;
   }
 
   div.pricing-list {
     height: 60vh;
-    width: 90%;
-  }
-
-  div.pricing-list-btn {
-    /* margin-top: 3rem; */
+    width: 100%;
   }
 }
 
