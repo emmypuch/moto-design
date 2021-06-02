@@ -1188,7 +1188,7 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   div.pricing-grid {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2rem;
+    padding: 0rem;
     justify-content: center;
     align-items: center;
   }
@@ -1199,7 +1199,11 @@ div.pricing-list:nth-child(2) div.pricing-list-btn a:hover {
   }
 
   div.pricing-list-btn {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
+  }
+
+  div.pricing-list-btn a {
+    font-size: 0.9rem;
   }
 }
 
