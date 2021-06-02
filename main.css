@@ -1280,7 +1280,7 @@ div.team-heading p {
   padding-top: 15px;
 }
 
-.container {
+.team-container {
   padding: 1em 0;
   float: left;
   width: 50%;
@@ -1288,14 +1288,14 @@ div.team-heading p {
 }
 
 @media screen and (max-width: 640px) {
-  .container {
+  .team-container {
     display: block;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 900px) {
-  .container {
+  .team-container {
     width: 33.33333%;
   }
 }
