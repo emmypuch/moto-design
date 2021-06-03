@@ -1391,13 +1391,13 @@ section.subscribe-area {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 50vh;
   padding: 20px 20px;
   margin-top: 35rem;
 }
 
 div.subscribe-heading {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 div.subscribe-heading h2 {
@@ -1460,7 +1460,7 @@ div.subscribe-input input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
   section.subscribe-area {
-    height: 45vh;
+    height: 50vh;
     padding: 10px 10px;
     margin-top: 100rem;
   }
@@ -1486,4 +1486,91 @@ div.subscribe-input input[type="submit"]:hover {
     width: 100%;
     margin-bottom: 1rem;
   }
+}
+
+/* Contact Area Styling */
+section.contact-area {
+  padding: 20px 20px;
+}
+
+div.contact-flex {
+  display: flex;
+}
+
+div.contact-form {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 125px 70px;
+  width: 50%;
+  float: left;
+}
+
+/* form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+div.contact-form input,
+textarea {
+  width: 100%;
+  margin: 10px;
+}
+
+div.contact-form input.form-control,
+textarea {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #333;
+  height: 45px;
+  padding: 10px 18px;
+  transition: all 0.3s ease 0s;
+  outline: #444444;
+}
+
+textarea {
+  height: 100%;
+}
+
+div.contact-form input.form-control:focus,
+textarea:focus {
+  box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 0 30px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  outline: 0 none;
+  border: none;
+}
+
+div.input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+button.btn-bg {
+  background: #ff5f6d none repeat scroll 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
+  -webkit-box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
+  -webkit-box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+  padding: 10px 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button.btn-bg:hover {
+  background: #f55160;
 }
