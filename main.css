@@ -1495,6 +1495,9 @@ section.contact-area {
 
 div.contact-flex {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
 }
 
 div.contact-form {
@@ -1506,12 +1509,6 @@ div.contact-form {
   width: 50%;
   float: left;
 }
-
-/* form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 div.contact-form input,
 textarea {
@@ -1573,4 +1570,20 @@ button.btn-bg {
 
 button.btn-bg:hover {
   background: #f55160;
+}
+
+@media screen and (max-width: 768px) {
+  section.contact-area {
+    padding: 10px 10px;
+  }
+
+  div.contact-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.contact-form {
+    padding: 125px 70px;
+    width: 100%;
+  }
 }
