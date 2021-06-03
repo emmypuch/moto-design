@@ -1384,3 +1384,106 @@ div.team-heading p {
     font-size: 0.9rem;
   }
 }
+
+/* Subscribe Area Styling */
+section.subscribe-area {
+  background-image: url("images/6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  padding: 20px 20px;
+  margin-top: 35rem;
+}
+
+div.subscribe-heading {
+  margin-top: 6rem;
+}
+
+div.subscribe-heading h2 {
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+div.subscribe-heading p {
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 15px;
+}
+
+div.subscribe-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+div.subscribe-input input[type="email"] {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #ff5f6d;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #444444;
+  font-size: 0.8rem;
+  font-weight: normal;
+  height: 45px;
+  margin-right: 15px;
+  padding-left: 20px;
+  width: 30%;
+  outline: none;
+}
+
+div.subscribe-input input[type="submit"] {
+  background: #ff5f6d none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  height: 45px;
+  text-transform: uppercase;
+  top: 0;
+  width: 155px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
+  -webkit-box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
+}
+
+div.subscribe-input input[type="submit"]:hover {
+  background: #f55160;
+}
+
+@media screen and (max-width: 768px) {
+  section.subscribe-area {
+    height: 45vh;
+    padding: 10px 10px;
+    margin-top: 100rem;
+  }
+
+  div.subscribe-heading h2 {
+    font-size: 2.5rem;
+  }
+
+  div.subscribe-heading p {
+    font-size: 0.9rem;
+  }
+
+  div.subscribe-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  div.subscribe-input input[type="email"] {
+    height: 45px;
+    margin-right: 0px;
+    padding-left: 20px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
