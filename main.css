@@ -219,7 +219,7 @@ div.hero-grid {
 }
 
 div.hero-img {
-  width: 130%;
+  width: 110%;
 }
 
 div.hero-img img {
@@ -1455,6 +1455,7 @@ div.subscribe-input input[type="submit"] {
   top: 0;
   width: 155px;
   transition: 0.3s;
+  cursor: pointer;
   box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
   -webkit-box-shadow: 0 0 20px 0px rgb(255 95 109 / 40%);
 }
