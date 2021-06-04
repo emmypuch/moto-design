@@ -1593,3 +1593,45 @@ button.btn-bg:hover {
     width: 100%;
   }
 }
+
+/* Footer Area Styling */
+div.copyright-area {
+  padding: 20px 20px;
+  background-image: url("images/7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+div.media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.media-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.media-icon {
+  display: flex;
+  margin: 50px;
+}
+
+div.icon-med {
+  padding-right: 10px;
+  padding-top: 7px;
+}
+
+div.icon-med i {
+  color: #fff;
+}
+
+div.icon-sub-heading p {
+  color: #fff;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 0.8rem;
+}
