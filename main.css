@@ -1629,7 +1629,7 @@ div.icon-med i {
   color: #fff;
 }
 
-div.icon-sub-heading p {
+p {
   color: #fff;
   font-weight: 300;
   line-height: 25px;
@@ -1706,6 +1706,15 @@ div.copyright-text a {
     margin: 40px;
   }
 
+  div.icon-med {
+    padding-right: 35px;
+    padding-top: 7px;
+  }
+
+  div.icon-sub-heading {
+    padding-left: 15px;
+  }
+
   div.social-list ul {
     margin-top: 0rem;
   }
@@ -1715,7 +1724,6 @@ div.copyright-text a {
   }
 
   div.copyright-text {
-    margin-top: 0.9rem;
     padding-bottom: 10px;
   }
 
