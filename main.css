@@ -1690,3 +1690,36 @@ div.copyright-text a {
   color: #fff;
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  div.copyright-area {
+    padding: 10px 10px;
+    height: 70vh;
+  }
+
+  div.media-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.media-icon {
+    margin: 40px;
+  }
+
+  div.social-list ul {
+    margin-top: 0rem;
+  }
+
+  div.social-list ul li {
+    margin: 5px;
+  }
+
+  div.copyright-text {
+    margin-top: 0.9rem;
+    padding-bottom: 10px;
+  }
+
+  div.copyright-text p {
+    font-size: 0.9rem;
+  }
+}
