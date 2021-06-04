@@ -1672,3 +1672,21 @@ div.social-list ul li a:hover {
   color: #fff;
   background: #ff5f6d;
 }
+
+div.copyright-text {
+  margin-top: 1.5rem;
+}
+
+div.copyright-text p {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+div.copyright-text a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
