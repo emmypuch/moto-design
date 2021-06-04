@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1729,5 +1733,48 @@ div.copyright-text a {
 
   div.copyright-text p {
     font-size: 0.9rem;
+  }
+}
+
+/* Top Link Styling */
+.top-link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: #fa5765 none repeat scroll 0 0;
+  box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+  transition: all 0.3s ease 0s;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 2px;
+  color: #ffffff;
+  animation: bounce 4s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
+}
+
+.top-link:hover {
+  background: #3e3e3e;
+  color: #fff;
+}
+
+.show-link {
+  visibility: visible;
+  z-index: 100;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
   }
 }
